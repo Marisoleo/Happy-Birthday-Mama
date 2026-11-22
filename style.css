@@ -873,3 +873,32 @@ footer a {
   }
 }
 
+
+/* ANZEIGE DER NACHRICHTEN */
+.message-reveal,
+.letter-pop {
+  display: block !important;
+  position: relative;
+  z-index: 30;
+  min-height: 60px;
+  padding: 20px;
+  margin-top: 20px;
+  background: #fffaf3;
+  color: #503d35;
+  border: 1px solid #e7d5c5;
+  border-radius: 12px;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* ÜBERRASCHUNG */
+.surprise-reveal {
+  display: block;
+  color: #503d35;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.surprise-reveal[hidden] {
+  display: none !important;
+}
